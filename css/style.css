@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	max-width: 1200px;
+	margin: 0px auto;
+	font-family: Sansita;
+	background: url(img/main_bg.jpg);
+}
+ol, ul {
+	list-style: none;
+}
+p {
+	margin: 7px 0 30px 0;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2 {
+	font-size: 18px;
+	line-height: 1.1;
+	margin-bottom: 6px;
+}
+a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+a:hover{
+	text-decoration: underline;
+}
+.header{
+	height: 120px;
+	background: #e2e2e2;
+	margin-bottom: 10px;
+}
+.logotip{
+	float: left;
+	position: absolute;
+	left: 100px;
+	top: 37px;
+}
+.menu{
+	float: right;
+	position: absolute;
+	left: 400px;
+	top: 56px;
+}
+.menu ul li{
+	float: left;
+	margin-left: 63px;
+}
+.active, a:hover{
+	color: #090909;
+}
+.contein{
+	margin-bottom: 50px;
+}
+.thumbnail{
+	float: left;
+}
+.thumbnail img{
+	border: 3px solid #e0e0e0;
+}
+.content{
+	margin-left: 180px;
+}
+.published{
+	color: #aaaaaa;
+}
+.footer{
+	background: #e2e2e2;
+	padding: 32px 0px 32px 0px;
+	height: 100px;
+}
+.footer_menu{
+	width: 75%;
+	float: left;
+	display: block;
+}
+.footer_menu ul li{
+	float: left;
+	position: relative;
+	border-left: 1px solid #5d5d5d;
+	padding: 0px 7px;
+}
+.footer_menu ul li:first-child{
+	padding-left: 0;
+	border-left: none;
+}
+.footer_logo{
+	float: right;
+	display: block;
+	width: 25%;
+}
+.clear{
+	clear: both;
+}
